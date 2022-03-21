@@ -16,7 +16,6 @@ public class GmailDemo {
 		driver.findElement(By.id("identifierId")).sendKeys("neshsha@gmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector(".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.VfPpkd-LgbsSe-OWXEXe-dgl2Hf.nCP5yc.AjY5Oe.DuMIQc.qIypjc.TrZEUc.lw1w4b")).click();
-		Thread.sleep(2000);
 		String at = driver.getTitle();
 		String et = "gmail";
 		if (at.equalsIgnoreCase(et)) {
