@@ -21,6 +21,7 @@ public class GmailDemo {
 		if (at.equalsIgnoreCase(et)) {
 			
 			System.out.println("Test succesfull develop");
+			Thread.sleep(2000);
 		}
 		else {
 			
