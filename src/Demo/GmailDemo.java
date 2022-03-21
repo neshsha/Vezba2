@@ -20,7 +20,7 @@ public class GmailDemo {
 		String et = "gmail";
 		if (at.equalsIgnoreCase(et)) {
 			
-			System.out.println("Test succesfull");
+			System.out.println("Test succesfull develop");
 		}
 		else {
 			
